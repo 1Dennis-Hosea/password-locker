@@ -61,7 +61,7 @@ def main():
 	while True:
 		print(' ')
 		print("-"*60)
-		print('Use these codes to navigate: \n ca-Create an Account \n li-Log In \n ex-Exit')
+		print('Use these codes to navigate: \n ca-Create an Account \n li-Log In \n ex-Exit \n dc-Display Credential \n cc-Create Credential')
 		short_code = input('Enter a choice: ').lower().strip()
 		if short_code == 'ex':
 			break
